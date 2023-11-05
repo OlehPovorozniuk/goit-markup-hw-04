@@ -66,7 +66,7 @@ body {
 
 
 }
-.curennt-page-link::after{
+ .curennt-page-link::after{
     position:absolute;
     display: block;
     left: 0;
@@ -79,7 +79,7 @@ body {
 
     
 }
-.curennt-page-link{
+.nav-list .curennt-page-link{
     color: #404bbf;
 }
 
