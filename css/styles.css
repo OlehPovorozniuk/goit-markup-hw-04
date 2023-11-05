@@ -50,8 +50,42 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em; 
     padding: 24px 0;
+    position: relative;
+}
+.nav-list .link:hover::after{
+    position:absolute;
+    display: block;
+    left: 0;
+    bottom: -1px;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    content:"";
+
+}
+.curennt-page-link::after{
+    position:absolute;
+    display: block;
+    left: 0;
+    bottom: -1px;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    content:"";
     
-     
+}
+.curennt-page-link{
+    color: #404bbf;
+}
+
+.nav-list .link-portfolio:hover::after{
+    width: 66px;
+}
+.nav-list .link-contacts:hover::after{
+    width: 67px;
+
 }
 
 
