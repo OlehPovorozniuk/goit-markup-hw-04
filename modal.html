@@ -20,52 +20,60 @@
     <!-- Modal window -->
     <div class="backdrop" data-modal>
       <div class="modal">
-        
         <form class="register-form">
-            <button class="modal-btn" type="button" data-modal-close>
-              <svg class="btn-close" width="8"
-              height="8">
-                <use href="./images/icons.svg#icon-close-black"></use>
-              </svg>
-            </button>
+          <button class="modal-btn" type="button" data-modal-close>
+            <svg class="btn-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
           <strong class="register-form-title"
-            >Leave your contacts and we will call you back</strong>
+            >Leave your contacts and we will call you back</strong
+          >
           <div class="label-box">
             <label class="modal-label"
-            ><span class="name-label">Name</span>
-            <input class="modal-input" type="text" name="user-name" autofocus />
-          </label>
-        </div>
-         <div class="label-box">
-            <label class="modal-label"
-            > <span class="name-label">Phone</span>
-            <input class="modal-input" type="tel" name="user-number" />
-          </label>
-         </div>
-         <div class="label-box">
-            <label class="modal-label"
-            > <span class="name-label">Email</span>
-            <input class="modal-input" type="email" name="user-email" />
-          </label>
-         </div>
-          <div class="label-box">
-            <label class="modal-label"
-            > <span class="name-label">Comment</span>
-            <input
-              class="modal-input"
-              type="text"
-              name="comment"
-              placeholder="Text input"
-            />
-          </label>
-          </div>
-          <div>
-            <label class="modal-label">
-              <input type="checkbox" name="accept" value="" />I accept the terms
-              and conditions of the Privacy Policy
+              ><span class="name-label">Name</span>
+              <input
+                class="modal-input"
+                type="text"
+                name="user-name"
+                autofocus
+              />
             </label>
           </div>
-<button class="send-button" type="submit">Send</button>
+          <div class="label-box">
+            <label class="modal-label">
+              <span class="name-label">Phone</span>
+              <input class="modal-input" type="tel" name="user-number" />
+            </label>
+          </div>
+          <div class="label-box">
+            <label class="modal-label">
+              <span class="name-label">Email</span>
+              <input class="modal-input" type="email" name="user-email" />
+            </label>
+          </div>
+          <div class="label-box">
+            <label class="modal-label">
+              <span class="name-label">Comment</span>
+
+              <textarea
+                class="modal-input"
+                name="comment"
+                rows="5"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+
+          <label class="modal-label modal-point">
+            <input type="checkbox" name="accept" value="agree" /><span
+              class="privacy-text"
+              >I accept the terms and conditions of the
+              <a class="privacy-link" href="">Privacy Policy</a></span
+            >
+          </label>
+
+          <button class="send-button" type="submit">Send</button>
         </form>
       </div>
     </div>
